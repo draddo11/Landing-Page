@@ -48,7 +48,7 @@ body {
 
 .side-strip {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     right: -4em;
     transform: rotate(90deg);
