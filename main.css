@@ -126,3 +126,52 @@ body {
     font-size: 20px;
     font-weight:bolder;
 }
+
+@media screen and (max-width: 600px){
+.bottom-bar {
+    font-size: 10px;
+    }
+    .bottom-bar {
+        color:#fff;
+        position:absolute;
+        bottom:0px;
+        left:0;
+        right:0;
+    }
+    
+    .row{
+        padding: 2.6em 2.6em 2em 2.6em;
+        background: #000;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 12px;
+    }
+    
+    .bottom-bar h6 {
+        font-weight:bold;
+        text-transform:uppercase;
+    }
+    
+    .bottom-bar p{
+        font-size: 9px;
+        font-weight: lighter;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        color: #ffffff;
+        padding-right: 36px;
+    }
+
+    .nav{
+        line-height: 20px;
+        margin: 10px;
+        position: absolute;
+        right: 0;
+        padding-left:50px;
+    }
+
+    .header h1{
+        font-size: 25px;
+    }
+    
+}
